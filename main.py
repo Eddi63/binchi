@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import itertools
 from GA_skeleton import *
+from calcTSP import *
 def print_hi(name):
     n = 150
     depots = {}
