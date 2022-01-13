@@ -6,7 +6,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import itertools
-from objFunction import *
 from GA_skeleton import *
 def print_hi(name):
     n = 150
