@@ -22,7 +22,7 @@ def print_hi(name):
                     graph[i-1][j-1] = np.sqrt((depots[i][0] - depots[j][0]) ** 2 + (depots[i][1] - depots[j][1]) ** 2)
 
     tourStat = []
-    NTrials = 10 ** 5
+    NTrials = 10 ** 8
     xmin,fmin,history = GA(n,NTrials, computeTourLength, graph, 151)
 
     # for k in range(NTrials):
